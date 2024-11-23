@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.fixed-width{
+    width: 1270px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+
+/* Header part */
+
+.main-header{
+    background-color: #3498db;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    max-width: 210px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 20px;
+    border-right: 1px solid #ddd;
+    display: block;
+    padding: 0 30px;
+    line-height: 75px;
+}
+.header-right ul li a:hover{
+    background-color: #2980b9;
+}
+.header-right ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+
+/* Baner Part */
+
+.baner{
+    background: url(https://ehw.net.au/wp-content/uploads/2018/05/banners-4-2048x523.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.baner h1{
+    background-color: #95a5a6;
+    color: #ddd;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.baner p{
+    background-color: #bdc3c7;
+    color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 214px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* Servic  */
+
+.servic-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.about{
+    margin-top: 60px;
+}
+.about h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+}
+.servic{
+    margin-top: 60px;
+}
+.servic-item span{
+    color: #ddd;
+    background-color: #2980b9;
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    display: block;
+    line-height: 60px;
+    border-radius: 15px 0 15px 0;
+}
+.servic-item h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+
+/* Blog Section */
+
+
+.container-left{
+    float: left;
+    width: 70%;
+}
+.blog-right-notification{
+    float: right;
+    width: 25%;
+}
+.container-left img{
+    float: left;
+    width: 136px;
+    margin-right: 10px;
+    height: auto;
+}
+.blog-item{
+    margin-top: 60px;
+}
+.blog-item p{
+    font-size:15px;
+}
+
+/* blog Notification */
+
+.blog-right-notification h3{
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 15px;
+}
+.blog-right-notification ul li{
+    border: 1px solid #ddd;
+    padding: 15px 0;
+    margin-top: 15px;
+    font-size: 25px;
+    list-style: none;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+}
+/* Footer Section */
+
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.footer{
+    background-color: #2c3e50;
+    padding: 20px 0;
+    color: #ddd;
+}
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{
+    color: #ddd;
+    font-size: 30px;
+    margin-right: 15px;
+}
